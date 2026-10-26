@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="#0f172a" />
+  
+  <!-- Outer Corner Viewfinder Reticles -->
+  <path d="M 120 170 L 120 130 A 10 10 0 0 1 130 120 L 170 120" stroke="#38bdf8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M 342 120 L 382 120 A 10 10 0 0 1 392 130 L 392 170" stroke="#38bdf8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M 120 342 L 120 382 A 10 10 0 0 0 130 392 L 170 392" stroke="#38bdf8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M 392 342 L 392 382 A 10 10 0 0 1 382 392 L 342 392" stroke="#38bdf8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+  <!-- Sheet of Paper -->
+  <rect x="156" y="144" width="200" height="250" rx="18" fill="#ffffff" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.5))" />
+  
+  <!-- Text Lines on Paper -->
+  <rect x="186" y="184" width="90" height="12" rx="6" fill="#4f46e5" />
+  <rect x="186" y="214" width="140" height="8" rx="4" fill="#94a3b8" />
+  <rect x="186" y="234" width="125" height="8" rx="4" fill="#cbd5e1" />
+  <rect x="186" y="254" width="135" height="8" rx="4" fill="#cbd5e1" />
+  <rect x="186" y="274" width="110" height="8" rx="4" fill="#cbd5e1" />
+  
+  <!-- Laser Scanning Line -->
+  <line x1="130" y1="280" x2="382" y2="280" stroke="url(#laserGrad)" stroke-width="8" stroke-linecap="round" />
+  <line x1="140" y1="280" x2="372" y2="280" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Corner Points for Perspective Detection -->
+  <circle cx="156" cy="144" r="8" fill="#38bdf8" stroke="#ffffff" stroke-width="3" />
+  <circle cx="356" cy="144" r="8" fill="#38bdf8" stroke="#ffffff" stroke-width="3" />
+  <circle cx="156" cy="394" r="8" fill="#38bdf8" stroke="#ffffff" stroke-width="3" />
+  <circle cx="356" cy="394" r="8" fill="#38bdf8" stroke="#ffffff" stroke-width="3" />
+</svg>

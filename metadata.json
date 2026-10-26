@@ -1,0 +1,6 @@
+{
+  "name": "DocuScan Pro - Professional Document Scanner",
+  "description": "Professional document scanner with real-time edge detection, perspective correction, 30 enhancement filters, multi-page scanning, multilingual OCR (Arabic, French, English), and PDF/image export.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
